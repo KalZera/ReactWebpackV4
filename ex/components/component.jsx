@@ -1,5 +1,7 @@
 import React from 'react'
 
-export default function(){
-    return <h1>testando</h1>;
-}
+export default () => (
+    <div>
+        <h1 className="blue white-text">Testando CSS e Funcionando</h1>
+    </div>
+)
